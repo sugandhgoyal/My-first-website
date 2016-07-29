@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>ptsd</title>
+	 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+<link rel = "stylesheet" type = "text/css"
+   href = "animate.css" />
+<style>
+#menu{ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7FFFD4;}
+
+ #menu li {
+    float: left;
+}
+
+#menu li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#menu li a:hover,.dropdown:hover.dropbtn {
+    background-color: #6495ED;
+}
+
+#menu li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+	
+#causes{list-style-image: url(a.jpg);
+         font-size: 25px;
+          margin-left: 10px;}
+
+p{font-size: 20px;
+  }
+  #bb{font-family: "Abril Fatface";}
+
+h1{font-family:"Tangerine";
+   font-size: 70px;
+margin-top: 50px;}
+
+h2{font-size: 50px;
+   font-family:"Tangerine";}
+
+#event{font-size:25px;}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin-left: 50%;
+    text-align: center;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: black;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+</style>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+
+  
+$(document).ready(function(){
+   $("#bb").addClass("animated zoomIn");
+   
+
+    });
+
+</script>
+<ul id="menu">
+  <li><a href="p2.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+   <li class="dropdown">
+    <a href="#" class="dropbtn">Categories</a>
+    <div class="dropdown-content">
+      <a href="genetic.html">Genetic Disorders</a>
+      <a href="ptsd.html">PTSD</a>
+       </div>
+  </li>
+</ul>
+<div id="bb"><h1>Post Traumatic Stress Disorder</h1></div>
+<p id="bb">Posttraumatic stress disorder is a mental disorder that can develop after a person is exposed to a traumatic event, such as sexual assault, warfare,<br> traffic collisions, or other threats on a person's life.Symptoms may include disturbing thoughts, feelings, or dreams related to the events, mental<br> or physical distress to trauma-related cues, attempts to avoid trauma-related cues, alterations in how a person thinks and feels, and increased arousal. <br>These symptoms last for more than a month after the event. Young children are less likely to show distress but instead may express their memories through<br> play.Those with PTSD are at a higher risk of suicide.</p>
+<img src="fear.gif" width="800px" height="500px">
+<h2>Causes Of ptsd</h2>
+<p id="event">Types of events that can lead to PTSD include:
+<ul id="causes">
+<li>serious road accidents</li>
+<li>violent personal assaults, such as sexual assault, mugging or robbery
+prolonged sexual abuse,<br> violence or severe neglect</li>
+<li>witnessing violent deaths</li>
+<li>military combat</li>
+<li>being held hostage</li>
+<li>terrorist attacks</li>
+<li>natural disasters, such as severe floods, earthquakes or tsunamis
+a diagnosis of a life-<br>threatening condition</li>
+<li>an unexpected severe injury or death of a close family member or friend</li>
+</ul>
+</p>
+<ul class="pagination">
+  <li><a href="#"><<</a></li>
+  <li><a class="active" href="ptsd.html">1</a></li>
+  <li><a href="ptsd2.html">2</a></li>
+  <li><a href="#">>></a></li>
+</ul>
+</body>
+</html>

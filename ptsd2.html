@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>ptsd2</title>
+	 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+     <meta charset="utf-8">
+     <link rel = "stylesheet" type = "text/css"
+   href = "animate.css" />
+
+
+<style>
+
+#menu{ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7FFFD4;}
+    #menu li {
+    float: left;
+}
+
+#menu li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover, .dropdown:hover .dropbtn {
+    background-color: #6495ED;
+}
+
+#menu li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#vid{text-align: center;}
+h2{font-size: 50px;
+   font-family:"Tangerine";}
+
+h1{font-family:"Tangerine";
+   font-size: 70px;
+margin-top: 50px;}
+
+#symp{list-style-image: url(a.jpg);
+         font-size: 25px;
+          margin-left: 10px;}
+
+ p{font-size: 25px;}         
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin-left: 50%;
+    text-align: center;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: black;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+</style>
+</head>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+
+  
+$(document).ready(function(){
+   $("#cc").addClass("animated zoomIn");
+   
+
+    });
+
+</script>
+
+<ul id="menu">
+  <li><a href="p2.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+   <li class="dropdown">
+    <a href="#" class="dropbtn">Categories</a>
+    <div class="dropdown-content">
+      <a href="genetic.html">Genetic Disorders</a>
+      <a href="ptsd.html">PTSD</a>
+       </div>
+  </li>
+</ul>
+<div id="cc"><h1>Post Traumatic Stress Disorder</h1></div>
+<h2>Symptoms Of PTSD</h2>
+<ul id="symp">
+    <li>Re-experiencing the trauma through intrusive distressing recollections of the event, flashbacks, and nightmares.</li>
+    <li>Emotional numbness and avoidance of places, people, and activities that are reminders of the trauma.</li>
+    <li>Increased arousal such as difficulty sleeping and concentrating, feeling jumpy, and being easily irritated and angered.</li>
+    <li>Recurrent distressing dreams in which the content or affect (i.e. feeling) of the dream is related to the events (Note: In children there may be frightening dreams without recognizable content.)</li>
+    <li>Flashbacks or other dissociative reactions in which the individual feels or acts as if the traumatic events are recurring (Note: In children trauma-specific reenactment may occur in play.)</li>
+    <li>Intense or prolonged psychological distress at exposure to internal or external cues that symbolize or resemble an htmlect of the traumatic events</li>
+    <li>inability to remember an important htmlect of the traumatic events (not due to head injury, alcohol, or drugs)</li>
+<li>Persistent and exaggerated negative beliefs or expectations about oneself, others, or the world (e.g., "I am bad," "No one can be trusted","The world is completely dangerous"). </li>
+</ul>
+
+<p>This is the video depicting a person suffering from PTSD.</p>
+<div id="vid">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NGcaA1deX5s" frameborder="0" allowfullscreen></iframe>
+</div>
+<ul class="pagination">
+  <li><a href="#"><<</a></li>
+  <li><a  href="ptsd.html">1</a></li>
+  <li><a class="active" href="ptsd2.html">2</a></li>
+  <li><a href="#">>></a></li>
+</ul>
+</body>
+</html>
